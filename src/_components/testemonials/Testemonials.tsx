@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import SectionHeading from "../SectionHeading/SectionHeading";
 import Carosel from "./Carosel";
 import styles from "./Testemonials.module.css"
@@ -16,14 +17,15 @@ const svg = (
   </svg>
 );
 function Testemonials() {
+  const {t} =useTranslation()
   return (
     <div className={styles.testemonials}>
-      <SectionHeading
-        svg={svg}
-        h1="What are people saying"
-        p="Thank you for your trust in Crypt Land! We are grateful for your feedback and are committed to providing the best [products/services offered]. Read what our clients have to say about their experience with us."
-        btnTitle="Testimonials"
-      />
+     <SectionHeading
+      svg={svg}
+      h1={t("testimonialsSection.title")}
+      p={t("testimonialsSection.description")}
+      btnTitle={t("testimonialsSection.button")}
+    />
       <Carosel />
     </div>
   );

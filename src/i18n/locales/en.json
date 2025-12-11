@@ -115,7 +115,23 @@
       "text": "I really like the system at this management, I love recommending this software"
     }
   
+},
+
+  "testimonialsSection": {
+    "title": "What are people saying",
+    "description": "Thank you for your trust in Crypt Land! We are grateful for your feedback and are committed to providing the best [products/services offered]. Read what our clients have to say about their experience with us.",
+    "button": "Testimonials"
+  
+},
+
+  "finance": {
+    "heading": "Let’s Upgrade your finances experience by using FinBiz",
+    "requestDemo": "Request Demo",
+    "watchVideo": "Watch Video"
+  
 }
+
+
 
 
 }
