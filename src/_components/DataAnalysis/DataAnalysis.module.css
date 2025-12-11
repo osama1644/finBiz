@@ -1,0 +1,224 @@
+.DataAnalysis {
+  padding-inline: 90px;
+  background-color: var(--chart2Bg-color);
+  box-shadow: 0 0 81px #00000024;
+  padding-top: 62px;
+  padding-bottom: 25px;
+}
+
+.analysis {
+  padding: 38px 29px 39px 30px;
+  background-color: var(--dataAnalBg-color);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.dataCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+.dataCards .Card {
+  padding: 29px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--cardBg-color);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.cardContent p {
+  color: var(--dataAnalParagraph-color);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 21px;
+}
+
+.cardContent h2 {
+  color: var(--dataAnalH2-color);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.cardAnalysis p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0;
+  margin-bottom: 53px;
+}
+
+.skelton {
+  width: 62px;
+  display: flex;
+  justify-content: space-between;
+  height: 38px;
+}
+
+.skelton span {
+  width: 6px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+.span1 { height: 28.3px; }
+.span2 { height: 39.5px; }
+.span3 { height: 32.8px; }
+.span4 { height: 44px; }
+
+
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  .charts {
+    grid-template-columns: 250px 500px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .charts {
+    grid-template-columns: 600px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .charts {
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+}
+
+
+.charts .balanceInfo {
+  padding-inline: 26px;
+  padding-top: 21px;
+  padding-bottom: 15px;
+  background-color: var(--balanceBg-color);
+  border-radius: 20px;
+}
+
+.charts .balanceInfo .balance {
+  margin-bottom: 26px;
+}
+
+.balanceInfo p {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--balanceParagraph-color);
+}
+
+.balanceInfo h2 {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 72px;
+  color: var(--balanceH2-color);
+}
+
+.charts .balanceInfo .balance p {
+  margin-bottom: 9px;
+}
+
+.charts .balanceInfo .balance h2 {
+  margin-bottom: 5px;
+}
+
+.charts .balanceInfo button {
+  line-height: 20px;
+  width: 100%;
+  height: 40px;
+}
+
+.charts .balanceInfo .income {
+  padding-top: 20px;
+  border-top: 1px solid;
+  height: 123px;
+  border-color: var(--balanceBorder-color);
+}
+
+.charts .balanceInfo .income p {
+  margin-bottom: 8px;
+}
+
+.charts .balanceInfo .expense {
+  padding-top: 24px;
+  border-top: 1px solid;
+  height: 127px;
+  border-color: var(--balanceBorder-color);
+}
+
+.charts .balanceInfo .expense p {
+  margin-bottom: 9px;
+}
+
+.emploee {
+  display: grid;
+  gap: 33px;
+  justify-content: center;
+}
+
+.emploee p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 18px;
+  color: var(--balanceH2-color);
+}
+
+.emploee .skelton1 {
+  width: 141px;
+  height: 14px;
+  border-radius: 7px;
+  margin-bottom: 14px;
+}
+
+.emploee .skelton2 {
+  width: 280px;
+  height: 14px;
+  border-radius: 7px;
+}
+
+@media (max-width: 1000px) {
+  .emploee .skelton1 {
+    width: 40%;
+    height: 12px;
+  }
+
+  .emploee .skelton2 {
+    width: 70%;
+    height: 12px;
+  }
+}
+
+.mainChart {
+  margin-right: 28px;
+  margin-left: 23px;
+}
+
+@media (min-width: 1920px) {
+  .DataAnalysis {
+    padding-inline: 192px;
+  }
+}
+
+@media (max-width: 787px) {
+  .cardContent h2 {
+    font-size: 20px;
+  }
+
+  .DataAnalysis {
+    padding-inline: 50px;
+  }
+}

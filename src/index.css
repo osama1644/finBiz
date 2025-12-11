@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  --bg-color: #ffffff;
+  --mainText-color: #1d1c20;
+  --links-color: #1d1c20;
+  --primary-color: #f6f6f6;
+  --border-color: #3b3b3b;
+  --heroBg-color: #f6f6f6;
+  --headerBorder-color: #e0e0e0;
+  --heroBtnText-color: #1d1c20;
+  --heroBtnBg-color: #ffffff;
+  --heroBtnBorder-color: #364c09;
+  --heroHeading1-color: #1d1c20;
+  --heroInputBg-color: #fff;
+  --bookBtn-color: #ffffff;
+  --bookBtnBg-color: #1d1c20;
+  --headingBtnBg-color: #f2f2f2;
+  --headingBtntext-color: #1d1c20;
+  --headingParagraph-color: #333333;
+  --cardBg-color: #f4f4f4;
+  --pricingBg-color: #f6f6f6;
+  --pricingBorder-color: #bdbdbd;
+  --card1h2Color: #1d1c20;
+  --card2h2Color: #729f19;
+  --card3h2Color: #1d1c20;
+  --cardPColor: #333333;
+  --cardPriceColor: #1d1c20;
+  --cardSpanColor: #4f4f4f;
+  --adventage: #1d1c20;
+  --card1btn-Color: #1d1c20;
+  --card2btn-Color: #ffffff;
+  --card3btn-Color: #1d1c20;
+  --card1btnBg-Color: #ffffff;
+  --card2btnBg-Color: #1d1c20;
+  --card3btnBg-Color: #a3dc2f;
+  --carosel-Color: #ffffff;
+  --testemonial-color: #f2f2f2;
+  --testSvg-color: #f7f7f7;
+  --leftBtn-color: #1d1c20;
+  --leftBtnBg-color: #ffffff;
+  --caroParagraph-color: #1d1c20;
+  --caroCreator-color: #1d1c20;
+  --financeBg-color: #f6f6f6;
+  --experienceBg-color: #ffffff;
+  --experienceH2: #1d1c20;
+  --experienceBtn-color: #ffffff;
+  --experienceBtnBg-color: #1d1c20;
+  --footerBg-color: #e0e0e0;
+  --footerBorder-color: #bdbdbd;
+  --copyRight-color: #4f4f4f;
+  --footerH2Color: #1d1c20;
+  --footerParagraphColor: #4f4f4f;
+  --socialBg-color: #f2f2f2;
+  --social-color: #1d1c20;
+  --FootInputBg-color: #ffffff;
+  --managementBg-color: #f2f2f2;
+  --graph1-color: #ffffff;
+  --graph1H2-color: #1d1c20;
+  --graph1Paragraph-color: #333333;
+  --img1-color: #f4f4f4;
+  --circle1Border-color: #ededed;
+  --circle2Bg-color: #e5eadb;
+  --circle1Bg-color: #f4f4f4;
+  --optimizeBtn-color: #1d1c20;
+  --optimizeBtnText-color: #ffffff;
+  --dataAnalBg-color: #f2f2f2;
+  --cardBg-color: #ffffff;
+  --dataAnalParagraph-color: #4f4f4f;
+  --dataAnalH2-color: #1d1c20;
+  --balanceBtn-color: #ffffff;
+  --balanceBtnBg-color: #1d1c20;
+  --balanceParagraph-color: #4f4f4f;
+  --balanceH2-color: #1d1c20;
+  --balanceBg-color:#FFFFFF;
+  --balanceBorder-color:#E0E0E0;
+  --integration-bg: #f5f5f5;
+  --integration-text: #333;
+  --integration-text-secondary: #555;
+  --integration-title: #4b4b4b;
+  --integration-loader: #777;
+  --integration-error: red;
+  --integration-card-shadow: rgba(0,0,0,0.05);
+   --product-bg: #ffffff;
+  --product-text: #333333;
+  --product-text-secondary: #555555;
+  --product-title: #4b4b4b;
+  --product-price: #1a8917;
+  --product-card-shadow: rgba(0,0,0,0.05);
+  --product-loader: #777777;
+  --product-error: red;
+  --chart2Bg-color:#F6F6F6;
+  --skelton22-Color:#BDBDBD;
+  --invokeBg-color:#F4F4F4;
+  --gradient-color:#F2F2F2;
+}
+
+[data-theme="dark"] {
+  --bg-color: #0f0f0f;
+  --mainText-color: #fbfbfb;
+  --links-color: #9b9ca1;
+  --primary-color: #1f1f1f;
+  --border-color: #3b3b3b;
+  --heroBg-color: #1d1c20;
+  --headerBorder-color: #161616;
+  --heroBtn-color: #a3dc2f;
+  --heroBtnBg-color: #171f05;
+  --heroBtnBorder-color: #364c09;
+  --heroHeading1-color: #fff;
+  --heroInputBg-color: #242424;
+  --bookBtn-color: #1d1c20;
+  --bookBtnBg-color: #f2f2f2;
+  --headingBtnBg-color: #171f05;
+  --headingBtntext-color: #a3dc2f;
+  --headingParagraph-color: #9b9ca1;
+  --cardBg-color: #161616;
+  --pricingBg-color: #1d1c20;
+  --pricingBorder-color: #242424;
+  --card1h2Color: #fbfbfb;
+  --card2h2Color: #a3dc2f;
+  --card3h2Color: #a3dc2f;
+  --cardPColor: #9b9ca1;
+  --cardPriceColor: #ffffff;
+  --cardSpanColor: #e0e0e0;
+  --adventage: #fbfbfb;
+  --card1btn-Color: #fbfbfb;
+  --card2btn-Color: #0f0f0f;
+  --card3btn-Color: #1d1c20;
+  --card1btnBg-Color: #1f1f1f;
+  --card2btnBg-Color: #fbfbfb;
+  --card3btnBg-Color: #a3dc2f;
+  --carosel-Color: #161616;
+  --testemonial-color: #0f0f0f;
+  --testSvg-color: #434343;
+  --leftBtn-color: #ffffff;
+  --leftBtnBg-color: #222629;
+  --caroParagraph-color: #ffffff;
+  --caroCreator-color: #ffffff;
+  --financeBg-color: #1d1c20;
+  --experienceBg-color: #0f0f0f;
+  --experienceH2: #ffffff;
+  --experienceBtn-color: #1d1c20;
+  --experienceBtnBg-color: #ffffff;
+  --footerBg-color: #0f0f0f;
+  --footerBorder-color: #333333;
+  --copyRight-color: #fafafa;
+  --footerH2Color: #fafafa;
+  --footerParagraphColor: #b9b3b3;
+  --socialBg-color: #4b4b4b;
+  --social-color: #ffffff;
+  --FootInputBg-color: #242424;
+  --managementBg-color: #0f0f0f;
+  --graph1-color: #161616;
+  --graph1H2-color: #fbfbfb;
+  --graph1Paragraph-color: #9b9ca1;
+  --img1-color: #1a1a1a;
+  --circle1Border-color: #242424;
+  --circle2Bg-color: #1a1a1a;
+  --circle1Bg-color: #171717;
+  --optimizeBtn-color: #ffffff;
+  --optimizeBtnText-color: #1d1c20;
+  --dataAnalBg-color: #161616;
+  --cardBg-color: #1a1a1a;
+  --dataAnalParagraph-color: #f5f5f5;
+  --dataAnalH2-color: #f5f5f5;
+  --balanceBtn-color: #1d1c20;
+  --balanceBtnBg-color: #ffffff;
+  --balanceParagraph-color: #f5f5f5;
+  --balanceH2-color: #f5f5f5;
+  --balanceBg-color:#1A1A1A;
+  --balanceBorder-color:#242424;
+  --integration-bg: #1f1f1f;
+  --integration-text: #f0f0f0;
+  --integration-text-secondary: #cccccc;
+  --integration-title: #ffffff;
+  --integration-loader: #bbbbbb;
+  --integration-error: #ff6b6b;
+  --integration-card-shadow: rgba(0,0,0,0.3);
+  --product-bg: #1f1f1f;
+  --product-text: #f0f0f0;
+  --product-text-secondary: #cccccc;
+  --product-title: #ffffff;
+  --product-price: #4dff91;
+  --product-card-shadow: rgba(0,0,0,0.3);
+  --product-loader: #bbbbbb;
+  --product-error: #ff6b6b;
+  --chart2Bg-color:#1D1C20;
+  --skelton22-Color:#333333;
+  --invokeBg-color:#1A1A1A;
+  --gradient-color:#0F0F0F;
+}
+/* #FFFFFF */
+body {
+  font-family: "DM Sans", sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  font-family: "DM Sans", sans-serif;
+}

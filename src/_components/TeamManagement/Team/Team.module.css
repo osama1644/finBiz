@@ -1,0 +1,233 @@
+.management {
+  padding: 142px 100px 200px 100px;
+  background-color: var(--managementBg-color);
+  
+}
+.management .data {
+  display: grid;
+  grid-template-columns: 352px 1fr 352px;
+  align-items: center;
+  gap: 31px;
+}
+
+.graph1 {
+  padding: 60px 27px;
+  border: 1px;
+  border-radius: 30px;
+  background-color: var(--graph1-color);
+  height: 496px;
+}
+.graph1 h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--graph1H2-color);
+  line-height: 25.2px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.graph1 p {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22px;
+  color: var(--graph1Paragraph-color);
+  margin-bottom: 32px;
+}
+.graph1 img{
+  width: 100%;
+}
+.img1 {
+  background-color: var(--img1-color);
+  padding-top: 1px;
+  border-radius: 12px;
+}
+.img1 .imgContent {
+  margin: 32px 32px 8px 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.img1 p {
+  font-size: 14px;
+  color: #33c6ab;
+  font-weight: 500;
+  /* text-align: left; */
+  margin-bottom: 0;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  background-color: #112220;
+  border-radius: 50%;
+  border: 1px solid #236456;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon svg {
+  color: #33c6ab;
+}
+
+/* booooxx2  */
+.graph2 {
+  padding: 32px 37px 0 37px;
+  background-color: var(--graph1-color);
+  border-radius: 30px;
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+}
+.graph2 h2 {
+  color: var(--graph1H2-color);
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  /* width: 288px; */
+  margin-inline: auto;
+  margin-bottom: 10px;
+  /* padding-inline: 186px; */
+}
+.graph2 p {
+  font-size: 20px;
+  width: 495px;
+  line-height: 36px;
+  margin-bottom: 18px;
+  color: var(--graph1Paragraph-color);
+  text-align: center;
+  margin-inline: auto;
+}
+.graph2 div {
+  padding: 27px 28px 20px 28px;
+  border-radius: 16px 16px 0 0;
+  margin-top: auto;
+  background-color: var(--img1-color);
+}
+
+/* .team {
+  width: 352px;
+} */
+
+.circles {
+  padding-inline: 18px;
+  background-color: var(--graph1-color);
+}
+.cirle1 {
+  width: 264px;
+  height: 264px;
+  border-radius: 50%;
+  border: 1px solid var(--circle1Bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--circle1Bg-color);
+}
+.cirle2 {
+  width: 208px;
+  height: 208px;
+  border-radius: 50%;
+  border: 1px solid var(--circle1Border-color);
+  background-color: var(--circle2Bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cirle2 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cirle2 img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-left: -23px;
+}
+
+.cirle2 img:first-child {
+  margin-left: 0;
+}
+
+.graph2 img{
+  width: 100%;
+}
+@media (min-width: 1920px) {
+  .management {
+  padding: 142px 210px 200px 210px;
+  
+}}
+
+
+@media (max-width: 1600px) {
+  .management {
+    padding: 120px 80px 160px 80px;
+  }
+  .management .data {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+  }
+  .graph1, .graph2 {
+    height: 450px;
+  }
+  .graph2 h2 {
+    font-size: 24px;
+  }
+  .graph2 p {
+    font-size: 18px;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .management {
+    padding: 100px 50px 140px 50px;
+  }
+  .management .data {
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px;
+  }
+  .graph1, .graph2 {
+    height: 400px;
+  }
+  .graph1 img{
+    height: 100%;
+  }
+  .graph2 h2 {
+    font-size: 22px;
+  }
+  .graph2 p {
+    font-size: 16px;
+    width: 100%;
+  }
+   .cirle1{
+    width: 200px;
+    height: 200px;
+  }
+  .cirle2{
+    width: 150px;
+    height: 150px;
+  }
+  .circles{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .management {
+    padding: 60px 20px 80px 20px;
+  }
+  .management .data {
+    grid-template-columns: 1fr; 
+    gap: 15px;
+  }
+  .graph1, .graph2 {
+    height: auto; 
+  }
+  .graph2 h2 {
+    font-size: 20px;
+  }
+  .graph2 p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+ 
+}

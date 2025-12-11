@@ -1,0 +1,160 @@
+.finances{
+  padding-inline:140px;
+  padding-block:115px;
+  background-color: var(--financeBg-color);
+}
+
+.experience{
+  background-color: var(--experienceBg-color);
+  border-radius: 40px;
+  padding: 19px 19px 19px 79px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 177px;
+}
+
+.experience .content{
+ flex: 1;
+}
+
+.experience .content h2{
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 700;
+  color: var(--experienceH2);
+  margin-bottom: 56px;
+}
+
+.experience .image{
+  width: 589px;
+  height: 562px;
+  border-radius: 34px;
+  overflow: hidden;
+}
+
+.experience .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.buutons{
+  display: flex;
+  align-items: center;
+  gap: 22px;
+
+}
+
+.buutons button{
+  border: none;
+  width: 200px;
+  padding-inline: 5px;
+}
+
+
+/* =============== 1400px =============== */
+@media (max-width:1400px) {
+
+  .experience .content h2{
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 45px;
+  }
+
+  .experience{
+    gap: 100px;
+  }
+
+  .finances{
+    padding-inline: 90px;
+  }
+}
+
+
+/* =============== 1100px =============== */
+@media (max-width:1100px) {
+
+  .experience{
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    padding: 40px;
+  }
+
+  .experience .content{
+    text-align: center;
+  }
+
+  .buutons{
+    justify-content: center;
+  }
+
+  .experience .content h2{
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .experience .image{
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+  }
+
+  .experience .image img{
+    height: auto;
+    object-fit: cover;
+  }
+
+  .finances{
+    padding-inline: 70px;
+  }
+}
+
+
+/* =============== 700px =============== */
+@media (max-width:700px) {
+
+  .experience{
+    gap: 45px;
+    padding: 30px;
+  }
+
+  .experience .content h2{
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .experience .image{
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+  }
+
+  .experience .image img{
+    width: 100%;
+    height: auto;
+  }
+
+  .finances{
+    padding-inline: 30px;
+  }
+}
+
+
+/* =============== 500px =============== */
+@media (max-width:500px) {
+
+  .experience .content h2{
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .experience .image{
+    max-width: 300px;
+  }
+
+  .finances{
+    padding-inline: 20px;
+  }
+}

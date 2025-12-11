@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "product": "Product",
+    "pages": "Pages",
+    "integrations": "Integrations",
+    "blog": "Blog",
+    "pricing": "Pricing",
+    "ar": "AR",
+    "getStarted": "Get started"
+  },
+  "hero": {
+    "new": "New",
+    "introducing": "Introducing AI Automation",
+    "title": "The Finance Solutions\nFor Your Business",
+    "subtitle": "Empower your finance team.\nThe onestop platform for all financial management of small and medium-sized business.",
+    "emailPlaceholder": "Enter your email address",
+    "bookDemo": "Book a Demo",
+    "reviews": "1,200+ reviews (4.9 of 5)"
+  },
+
+  "dashboard": {
+    "total_profit": "Total Profit",
+    "total_revenue": "Total revenue",
+    "product_sold": "Product sold",
+    "total_balance": "Total Balance",
+    "transfer": "Transfer",
+    "total_income": "Total Income",
+    "total_expense": "Total Expense",
+
+    "employee": "Employee",
+    "independent_contractor": "Independent Contractor",
+    "contracted_employee": "Contracted Employee",
+    "stakeholders": "Stakeholders"
+  },
+  "team": {
+    "easy_collaboration_title": "Easy collaboration",
+    "easy_collaboration_desc": "Seamlessly collaborate with your team members like never before.",
+    "simple_analytics_title": "Simple analytics",
+    "simple_analytics_desc": "Make informed decisions backed by data through our analytics tools.",
+    "boosting_business_title": "Boosting Business. Today and Tomorrow.",
+    "boosting_business_desc": "Bring harmony to team expenses with budget limits and real-time monitiring. Freedom for your staff. Peace of mind for you."
+  },
+  "accounting": {
+    "realtime_title": "Real-time accounting at your fingertips",
+    "realtime_desc": "Take the pain out of bookkeeping! Wave goodbye to mountains of paperwork and endless email reminders. There's now a new way of accounting.",
+
+    "optimize_title": "Optimize expense management as a team",
+    "optimize_desc": "Bring harmony to team expenses with budget limits and \nreal-time monitoring. Freedom for your staff. Peace of \nmind for you.",
+    "explore": "Explore more"
+  },
+  "cards": {
+    "basic": {
+      "plan": "Basic",
+      "description": "Get a professional website designed according to your needs.",
+      "adv1": "Get a fully designed Website.",
+      "adv2": "Webflow Development",
+      "adv3": "Limited Support",
+      "button": "Get started"
+    },
+    "pro": {
+      "plan": "Pro",
+      "description": "Get a professional website designed according to your needs.",
+      "adv1": "Get a fully designed Website.",
+      "adv2": "Webflow Development",
+      "adv3": "Limited Support",
+      "adv4": "Standart integrations",
+      "adv5": "Email support",
+      "adv6": "Email support",
+      "button": "Get started"
+    },
+    "enterprise": {
+      "plan": "Enterprise",
+      "description": "Get a professional website designed according to your needs.",
+      "adv1": "Get a fully designed Website.",
+      "adv2": "Webflow Development",
+      "adv3": "Limited Support",
+      "adv4": "Standart integrations",
+      "adv5": "Email support",
+      "adv6": "Email support",
+      "adv7": "Email support",
+      "adv8": "Email support",
+      "button": "Contact Us"
+    }
+  },
+
+  "pricing": {
+    "find_plan": "Find the right plan",
+    "heading_btn": "Pricing",
+    "description": "Invest in your company's future with our comprehensive financial solution. Contact us for pricing details and see how we can help you streamline your finances and reach your business goals.",
+        "month":"month"
+
+  }
+}

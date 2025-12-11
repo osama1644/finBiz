@@ -1,0 +1,53 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: "Arial", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: var(--integration-title);
+}
+
+.postCard {
+  background-color: var(--integration-bg);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px var(--integration-card-shadow);
+  transition: transform 0.2s, background-color 0.3s, color 0.3s;
+}
+
+.postCard:hover {
+  transform: translateY(-4px);
+}
+
+.postTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: var(--integration-text);
+}
+
+.postBody {
+  font-size: 1rem;
+  color: var(--integration-text-secondary);
+  line-height: 1.5;
+}
+
+.loader {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 100px;
+  color: var(--integration-loader);
+}
+
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 100px;
+  color: var(--integration-error);
+}

@@ -1,0 +1,113 @@
+.pricing {
+  padding: 100px 100px;
+  background-color: var(--pricingBg-color);
+
+ /* 330 */
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.card {
+  padding: 72px 40px 40px 40px;
+  border: 1px solid;
+  border-radius: 24px;
+  border-color: var(--pricingBorder-color);
+   min-height: 791px;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--cardBg-color);
+}
+.plan {
+  display: grid;
+  text-align: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+.plan h2 {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38px;
+}
+.plan p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.planPrice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 35px;
+  margin-bottom: 97px;
+  /* height: 32px; */
+}
+.planPrice h2 {
+  font-size: 40px;
+  font-weight: 500;
+
+  line-height: 32px;
+}
+.planPrice span {
+  padding-top: 16px;
+}
+.adventages {
+  display: grid;
+  gap: 8px;
+
+}
+.adventages li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  height: 20px;
+}
+.icon{
+  width: 13px;
+  height: 10px;
+}
+.btn button{
+  width: 100%;
+  margin-top: auto;
+
+}
+.btn{
+  margin-top: auto;
+}
+.btn button{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+}
+@media (min-width: 1920px) {
+  .pricing {
+  padding: 120px 330px;
+  
+}}
+@media (max-width: 1199px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing {
+    padding: 100px 60px;
+  }
+}
+@media (max-width: 899px) {
+  .pricing {
+    padding: 80px 40px;
+  }
+}
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing {
+    padding: 60px 20px;
+  }
+}

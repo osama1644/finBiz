@@ -1,0 +1,58 @@
+.sectionHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.btn button {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border-bottom: 1px solid;
+}
+svg {
+  width: 13.5px;
+  height: 12.5px;
+}
+.sectionHeading h2 {
+  color: var(--mainText-color);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.sectionHeading p {
+  width: 1067px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400px;
+  color: var(--headingParagraph-color);
+  margin-bottom: 55px;
+}
+
+@media (max-width: 1200px) {
+  .sectionHeading h2 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+  .sectionHeading p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 40px;
+  }
+}
+
+/* الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .sectionHeading h2 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .sectionHeading p {
+    width: 90%;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+}
