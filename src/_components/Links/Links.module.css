@@ -24,12 +24,23 @@
   backdrop-filter: blur(68px);
   -webkit-backdrop-filter: blur(68px); 
   box-shadow: 0 20px 100px 50px #a2dc2f64;
+  padding-block: 6px;
+  padding-right: 8px;
 }
 
 .links ul li {
-  padding: 12px 22px;
+  /* padding: 12px 22px; */
   color: var(--heroHeading1-color);
   cursor: pointer;
+}
+.last{
+  background-color: white;
+  color: black !important;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 @media (max-width:787px) {

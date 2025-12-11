@@ -68,27 +68,27 @@ export const CardsData: CardData[] = [
 export const testimonials = [
   {
     id: 1,
-    name: "Alfredo Lubin",
-    text: '"“Your success drives ours — that’s why our offering goes beyond software"',
+    nameKey: "testimonials.1.name",
+    textKey: "testimonials.1.text",
     stars: 5,
-    img: img1,
+    img: img1
   },
   {
     id: 2,
-    name: "John Carter",
-    text: 'We alighn our succeess with the success of our customers is why our offering',
+    nameKey: "testimonials.2.name",
+    textKey: "testimonials.2.text",
     stars: 4,
-    img: img2,
+    img: img2
   },
-
   {
     id: 3,
-    name: "Michael Smith",
-    text: '"I really like the system at this management,i love recommending this software "',
+    nameKey: "testimonials.3.name",
+    textKey: "testimonials.3.text",
     stars: 5,
-    img: img1,
-  },
+    img: img1
+  }
 ];
+
 
 export const AnalysisBoxes: AnalysisProps[] = [
   {

@@ -6,6 +6,7 @@ import { useRef } from "react";
 import { FaArrowRight, FaStar } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
 import { testimonials } from "../../data";
+import { useTranslation } from "react-i18next";
 const svgTestemonials = (
   <svg
     fill="var(--testSvg-color)"
@@ -23,39 +24,29 @@ type SwiperMethods = {
   slidePrev: () => void;
 };
 function Carosel() {
+  const {t} =useTranslation()
   const swiperRef = useRef<SwiperMethods>(null);
   return (
-    <div className={styles.swiperContainer}>
+    <div className={styles.swiperContainer} dir="ltr">
       <Swiper
-  onSwiper={(swiper) => (swiperRef.current = swiper)}
-  modules={[Navigation]}
-  slidesPerView={2}
-  spaceBetween={30}
-  navigation={false}
-  className={styles.mySwiper}
-  breakpoints={{
-    0: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-    },
-    768: {
-      slidesPerView: 2,
-      spaceBetween: 30,
-    },
-  }}
->
-
+        onSwiper={(swiper) => (swiperRef.current = swiper)}
+        modules={[Navigation]}
+        slidesPerView={2}
+        spaceBetween={30}
+        navigation={false}
+        className={styles.mySwiper}
+      >
         {testimonials.map((item) => (
           <SwiperSlide key={item.id}>
             <div className={styles.caroselCard}>
-              <p>{item.text}</p>
+              <p>{t(item.textKey)}</p>
 
               <div className={styles.info}>
                 <div className={styles.rating}>
                   <img src={item.img} alt="testemonials image" />
 
                   <div className={styles.creator}>
-                    <h2>{item.name}</h2>
+                    <h2>{t(item.nameKey)}</h2>
 
                     <div className={styles.stars}>
                       {[...Array(item.stars)].map((_, i) => (

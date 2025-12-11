@@ -89,5 +89,33 @@
     "description": "Invest in your company's future with our comprehensive financial solution. Contact us for pricing details and see how we can help you streamline your finances and reach your business goals.",
         "month":"month"
 
-  }
+  },
+  
+"links":{
+
+  "product": "Product",
+  "integration": "Integration",
+  "demo": "Demo",
+  "pricing": "Pricing",
+  "login": "Login"
+
+},
+
+  "testimonials": {
+    "1": {
+      "name": "Alfredo Lubin",
+      "text": "Your success drives ours — that’s why our offering goes beyond software"
+    },
+    "2": {
+      "name": "John Carter",
+      "text": "We align our success with the success of our customers, that’s why our offering"
+    },
+    "3": {
+      "name": "Michael Smith",
+      "text": "I really like the system at this management, I love recommending this software"
+    }
+  
+}
+
+
 }
